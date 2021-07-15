@@ -15,7 +15,7 @@ export default function Repositories() {
       repositoriesName = JSON.parse(repositoriesName)
       setRepositories(repositoriesName)
       localStorage.clear()
-   }, [])
+   }, [history])
    
    return (
       <S.Container>
